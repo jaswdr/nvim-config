@@ -34,3 +34,4 @@ vim.api.nvim_set_keymap("v", "<C-h>", ":lua SearchSelection()<CR>", { noremap = 
 
 vim.keymap.set("n", "<C-g>", ":Gen Complete_Code<CR>")
 vim.keymap.set("n", "<C-a>", ":Gen Generate<CR>")
+vim.keymap.set("n", "<C-c>", ":Gen Chat<CR>")

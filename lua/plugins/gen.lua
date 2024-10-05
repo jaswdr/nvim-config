@@ -12,7 +12,7 @@ return {
     show_model = false, -- Displays which model you are using at the beginning of your chat session.
     no_auto_close = false, -- Never closes the window automatically.
     file = false, -- Write the payload to a temporary file to keep the command short.
-    hidden = true, -- Hide the generation window (if true, will implicitly set `prompt.replace = true`), requires Neovim >= 0.10
+    hidden = false, -- Hide the generation window (if true, will implicitly set `prompt.replace = true`), requires Neovim >= 0.10
     debug = false, -- Prints errors and the command which is run.
   },
 }
